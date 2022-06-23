@@ -1,0 +1,130 @@
+/* list index */
+
+.list-group-item.active {
+  background: #357a32;
+}
+.btn:not(:disabled):not(.disabled).btn-primary {
+  background: #008196;
+    color: white;
+}
+
+body:not(.editing) .cmap { list-style-type: none; }
+body:not(.editing) .cmap > li {
+	margin-left: -1rem;
+	position: relative;
+}
+body:not(.editing) .cmap > li::before {
+	color: #666;
+	display: block;
+	font-size: 1rem;
+	font-weight: bold;
+	left: -1.5rem;
+	position: absolute;
+	top: 0;
+}
+/* for showing year on the left
+body:not(.editing) .cmap > li:nth-child(1)::before { content: '1'; }
+body:not(.editing) .cmap > li:nth-child(2)::before { content: '2'; }
+body:not(.editing) .cmap > li:nth-child(3)::before { content: '3'; }
+body:not(.editing) .cmap > li:nth-child(4)::before { content: '4'; }
+body:not(.editing) .cmap > li:nth-child(5)::before { content: '5'; }
+body:not(.editing) .cmap > li:nth-child(6)::before { content: '6'; }
+body:not(.editing) .cmap > li:nth-child(7)::before { content: '7'; }
+body:not(.editing) .cmap > li:nth-child(8)::before { content: '8'; }
+body:not(.editing) .cmap > li:nth-child(9)::before { content: '9'; }
+*/
+
+/* general */
+body:not(.editing) .cmap table {
+	height: 0;
+	margin: 0 !important;
+	min-width: 600px;
+	width: 100%;
+}
+body:not(.editing) .cmap td { padding: 0; }
+body:not(.editing) .cmap table,
+body:not(.editing) .cmap td a{ border: solid 1px white; }
+body:not(.editing) .cmap td.spc-block { border: none; }
+
+/* block table */
+body:not(.editing) .cmap tbody td { font-size: .85rem; }
+body:not(.editing) .cmap tbody td a { color: black !important; }
+body:not(.editing) .cmap tbody td > a,
+body:not(.editing) .cmap tbody td > span {
+	background: gray;
+	display: table;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transition: transform .25s;
+	vertical-align: top;
+	/*	
+
+	vertical-align: middle;
+	*/
+}
+body:not(.editing) .cmap tbody td > span,
+body:not(.editing) .cmap tbody td > a[href] { z-index: 1; }
+body:not(.editing) .cmap tbody td > span:hover,
+body:not(.editing) .cmap tbody td > a[href]:hover {
+	box-shadow: 0 0 4px rgba(0,0,0,.6);
+	transform: scale(1.05, 1.05);
+	z-index: 999;
+}
+body:not(.editing) .cmap tbody td > a > span,
+body:not(.editing) .cmap tbody td > span > a {
+	display: table-cell;
+	padding: 5px;
+	vertical-align: top;
+/*
+	vertical-align: middle;
+*/
+}
+
+
+/* month ruler */
+body:not(.editing) .cmap tfoot td {
+	font-size: .7rem;
+	font-style: italic;
+}
+
+
+/* block color */
+body:not(.editing) .cmap td.year      a { background: #05554a; color: white !important; font-weight: bold;}
+body:not(.editing) .cmap td.iasm      a { background: #eff8f3; }
+body:not(.editing) .cmap td.cprs      a { background: #eff8f3; }
+body:not(.editing) .cmap td.formative a { background: #20b597; color: white !important;}
+body:not(.editing) .cmap td.summative a { background: #20b597; color: white !important; }
+body:not(.editing) .cmap td.cc        a { background: #cbe6dd; font-weight: bold;}
+body:not(.editing) .cmap td.english   a { background: #cbe6dd; font-weight: bold;}
+body:not(.editing) .cmap td.gis       a { background: #eff8f3; }
+body:not(.editing) .cmap td.mss       a { background: #eff8f3; }
+body:not(.editing) .cmap td.hnns      a { background: #eff8f3; }
+body:not(.editing) .cmap td.his       a { background: #eff8f3; }
+body:not(.editing) .cmap td.ers       a { background: #eff8f3; }
+body:not(.editing) .cmap td.chinese   a { background: #eff8f3; }
+body:not(.editing) .cmap td.ey        a { background: #eff8f3; font-weight: bold; }
+body:not(.editing) .cmap td.cfb       a { background: #eff8f3; }
+body:not(.editing) .cmap td.comm      a { background: #cbe6dd; font-weight: bold;}
+body:not(.editing) .cmap td.jc        a { background: #eff8f3; }
+body:not(.editing) .cmap td.jca       a { background: #cbe6dd; font-weight: bold; }
+body:not(.editing) .cmap td.jcb       a { background: #cbe6dd; font-weight: bold; }
+body:not(.editing) .cmap td.jcc       a { background: #cbe6dd; font-weight: bold; }
+body:not(.editing) .cmap td.sc        a { background: #eff8f3; }
+body:not(.editing) .cmap td.sca       a { background: #cbe6dd; font-weight: bold; }
+body:not(.editing) .cmap td.scb       a { background: #cbe6dd; font-weight: bold; }
+body:not(.editing) .cmap td.scc       a { background: #cbe6dd; font-weight: bold; }
+body:not(.editing) .cmap td.break     a { background: #C0C0C2; }
+body:not(.editing) .cmap td.spc       a { background: #eff8f3; }
+body:not(.editing) .cmap td.spcblock  a { background: #cbe6dd; font-weight: bold; }
+body:not(.editing) .cmap td.revision  a { background: #eff8f3; }
+body:not(.editing) .cmap td.elective  a { background: #eff8f3; }
+body:not(.editing) .cmap td.epib      a { background: #eff8f3; }
+body:not(.editing) .cmap td.cb        a { background: #8DD3CB; font-weight: bold;}
+body:not(.editing) .cmap td.empty       { background: #eff8f3; font-weight: bold;}
+
+/* table overflow bug (when hover blocks around the edge) */
+@media (min-width: 992px) {
+	#section-1 ul.section .activity .no-overflow,
+	.cmap .table-responsive { overflow: visible; }
+}
