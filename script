@@ -1,0 +1,29 @@
+<script src="https://tl.med.hku.hk/moodle-extend/base/js/base.js"></script>
+<script src="https://tl.med.hku.hk/moodle-extend/base/js/admin.js"></script>
+<script src="https://tl.med.hku.hk/moodle-extend/mbbs_2022/js/custom.js"></script>
+
+<script>
+    if (window.location.href == 'https://moodle.hku.hk/course/view.php?id=93930' || window.location.href == 'https://moodle.hku.hk/course/view.php?id=93930#section-0' || window.location.href == 'https://moodle.hku.hk/course/view.php?id=93930&sectionid=865538#section-1') {
+        window.location.replace("https://moodle.hku.hk/course/view.php?id=93930&section=1");
+    }
+</script>
+
+<script>
+    includeCSS("https://tl.med.hku.hk/moodle-extend/base/css/base.css");
+    //includeCSS("https://tl.med.hku.hk/moodle-extend/base/css/base_header.css");
+    includeCSS("https://tl.med.hku.hk/moodle-extend/mbbs_2022/css/cmap.css");
+    includeCSS("https://tl.med.hku.hk/moodle-extend/mbbs_2022/css/custom.css");
+
+    setLogo(["https://tl.med.hku.hk/moodle-extend/mbbs_2022/img/logo.png", "https://tl.med.hku.hk/moodle-extend/mbbs_2022/img/logo_3.png"], "https://www.med.hku.hk");
+
+    addEditorButton();
+    fixEditorHeight();
+
+    document.addEventListener("DOMContentLoaded", function(event) {
+        requirejs(['jquery'], function($) {
+            var $heading = $('.page-header-headings');
+
+            $heading.html('<h1>MBBS Curriculum [2022/23]</h1>');
+        }); // jquery-ready
+    }); // document-ready
+</script>
