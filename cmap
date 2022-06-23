@@ -1,0 +1,362 @@
+<div id="cmap-container">
+    <br>
+    <ol class="cmap">
+        <li>
+            <div class="table-responsive">
+                <table width="100%" border="0">
+                    <tbody>
+                        <tr>
+                            <td colspan="10" style="text-align: left;" class="year"><a><strong>&nbsp;Year 1</strong></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: left;" class="iasm"><span><a href="">Introduction to the Art and Science of Medicine Block (IASM)</a></span></td>
+                            <td colspan="1" style="text-align: left;" class="formative"><a><span>Year 1 Formative Assessment</span></a></td>
+                            <td colspan="4" style="text-align: left;" class="cprs"><span><a href="">Cardiopulmonary and<br>Renal Systems Block (CPRS)</a></span></td>
+                            <td colspan="2" style="text-align: left;" class="summative"><a><span>First Summative Assessment</span></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="10" style="text-align: center;" class="cc"><a><span>At least one Common Core Course* (6 credits)</span></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" style="text-align: center;" class="english"><a><span>CAES1000 Core University English^ (6 credits)</span></a></td>
+                            <td colspan="6" class="empty">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td width="10%">Sep</td>
+                            <td width="10%">Oct</td>
+                            <td width="10%">Nov</td>
+                            <td width="10%">Dec</td>
+                            <td width="10%">Jan</td>
+                            <td width="10%">Feb</td>
+                            <td width="10%">Mar</td>
+                            <td width="10%">Apr</td>
+                            <td width="10%">May</td>
+                            <td width="10%">Jun</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="text-align: center;"><br></p>
+            </div>
+        </li>
+        <li>
+            <div class="table-responsive">
+                <table width="100%" border="0">
+                    <tbody>
+                        <tr>
+                            <td colspan="30" style="text-align: left;" class="year"><a><strong>&nbsp;Year 2</strong></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="6" style="text-align: left;" class="gis"><span><a href="">Gastrointestinal System Block (GIS)</a></span></td>
+                            <td colspan="3" style="text-align: left;" class="mss"><span><a href="">Musculoskeletal System Block (MSS)</a></span></td>
+                            <td colspan="3" style="text-align: left;" class="formative"><a><span>Year 2 Formative Assessment</span></a></td>
+                            <td colspan="4" style="text-align: left;" class="hnns"><span><a href="">Head, Neck and Nervous System Block (HNNS)</a></span></td>
+                            <td colspan="4" style="text-align: left;" class="ers"><span><a href="">Haematology/ Immunology System Block (HIS)</a></span></td>
+                            <td colspan="4" style="text-align: left;" class="ers"><span><a href="">Endocrine and Reproductive Systems Block (ERS)</a></span></td>
+                            <td colspan="3" style="text-align: left;" class="summative"><a><span>Second Summative Assessment</span></a></td>
+                            <td colspan="3" style="text-align: left;" class="chinese"><a><span>CEMD9006 Practical Chinese<br> for MBBS Students<br>(6 credits)</span></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="12" class="empty">&nbsp;</td>
+                            <td colspan="12" style="text-align: center;" class="cc"><a><span>Common Core Course* (6 credits)</span></a></td>
+                            <td colspan="6" class="empty">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Sep</td>
+                            <td colspan="3">Oct</td>
+                            <td colspan="3">Nov</td>
+                            <td colspan="3">Dec</td>
+                            <td colspan="3">Jan</td>
+                            <td colspan="3">Feb</td>
+                            <td colspan="3">Mar</td>
+                            <td colspan="3">Apr</td>
+                            <td colspan="3">May</td>
+                            <td colspan="3">Jun</td>
+                        </tr>
+                        <tr>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.33%"></td>
+                            <td width="3.34%"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="text-align: center;"><br></p>
+            </div>
+        </li>
+        <li>
+            <div class="table-responsive">
+                <table width="100%" border="0">
+                    <tbody>
+                        <tr>
+                            <td colspan="10" style="text-align: left;" class="year"><a><strong>&nbsp;Year 3</strong></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="9" style="text-align: center;" class="ey"><span><a href="">Enrichment Year</a></span></td>
+                            <td rowspan="2" width="10%" style="text-align: left;" class="summative"><a><span>Third Summative Assessment</span></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="9" style="text-align: center;" class="ey"><a><span>Common Core Courses* (or equivalent) (12 credits)</span></a></td>
+                        </tr>
+                        <tr>
+                            <td width="10%">Sep</td>
+                            <td width="10%">Oct</td>
+                            <td width="10%">Nov</td>
+                            <td width="10%">Dec</td>
+                            <td width="10%">Jan</td>
+                            <td width="10%">Feb</td>
+                            <td width="10%">Mar</td>
+                            <td width="10%">Apr</td>
+                            <td width="10%">May</td>
+                            <td width="10%">Jun</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="text-align: center;"><br></p>
+            </div>
+        </li>
+        <li>
+            <div class="table-responsive">
+                <table width="100%" border="0">
+                    <tbody>
+                        <tr>
+                            <td colspan="10" style="text-align: left;" class="year"><a><strong>&nbsp;Year 4</strong></a></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" colspan="2" style="text-align: left;" class="cfb"><span><a href="https://moodle.hku.hk/course/view.php?id=93930&amp;sectionid=990432">Clinical<br>Foundation Block</a></span></td>
+                            <td rowspan="2" width="10%" style="text-align: left;" class="formative"><a><span>Year 4 Formative Assessment</span></a></td>
+                            <td colspan="6" style="text-align: center;" class="jc"><a><span><strong>Junior Clerkship</strong></span></a></td>
+                            <td rowspan="5" style="text-align: left;" class="summative"><a><span>Fourth Summative Assessment</span></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center;" class="jc"><a><span>Rotation 1</span></a></td>
+                            <td colspan="2" style="text-align: center;" class="jc"><a><span>Rotation 2</span></a></td>
+                            <td colspan="2" style="text-align: center;" class="jc"><a><span>Rotation 3</span></a></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" colspan="3" style="text-align: left;" class="comm"><a><span>CAES9740 Professional Communication in Clinical Practice (6 credits)</span></a></td>
+                            <td colspan="6" class="jca"><span><a href="">Block A: Medicine-related</a></span></td>
+                        </tr>
+                        <tr>
+                            <td colspan="6" class="jcb"><span><a href="">Block B: Surgery-related</a></span></td>
+                        </tr>
+                        <tr>
+                            <td colspan="6" class="jcc"><span><a href="">Block C: Multidisciplinary: Cancer, Infection and Other Common Illnesses</a></span></td>
+                        </tr>
+                        <tr>
+                            <td width="10%">Aug</td>
+                            <td width="10%">Sep</td>
+                            <td width="10%">Oct</td>
+                            <td width="10%">Nov</td>
+                            <td width="10%">Dec</td>
+                            <td width="10%">Jan</td>
+                            <td width="10%">Feb</td>
+                            <td width="10%">Mar</td>
+                            <td width="10%">Apr</td>
+                            <td width="10%">May</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="text-align: center;"><br></p>
+            </div>
+        </li>
+        <li>
+            <div class="table-responsive">
+                <table width="100%" border="0">
+                    <tbody>
+                        <tr>
+                            <td colspan="26" style="text-align: left;" class="year"><a><strong>&nbsp;Year 5</strong></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="12" style="text-align: center;" class="sc"><a><span><strong>Senior Clerkship</strong></span></a></td>
+                            <td colspan="2" rowspan="6" style="text-align: center;" class="break"><a><span>Term Break</span></a></td>
+                            <td colspan="12" style="text-align: center;" class="spc"><a><span><strong><span>Specialty </span>Clerkship</strong></span></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" style="text-align: left;" class="sc"><a><span>Rotation 1</span></a></td>
+                            <td colspan="4" style="text-align: left;" class="sc"><a><span>Rotation 2</span></a></td>
+                            <td colspan="4" style="text-align: left;" class="sc"><a><span>Rotation 3</span></a></td>
+                            <td colspan="3" style="text-align: left;" class="spc"><a><span>Rotation 1</span></a></td>
+                            <td colspan="3" style="text-align: left;" class="spc"><a><span>Rotation 2</span></a></td>
+                            <td colspan="3" style="text-align: left;" class="spc"><a><span>Rotation 3</span></a></td>
+                            <td colspan="3" style="text-align: left;" class="spc"><a><span>Rotation 4</span></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="12" class="sca"><span><a href="">Block A: General Medicine</a></span></td>
+                            <td colspan="6" class="spcblock" style="text-align: left;"><span><a href="">Family Medicine and Community Care</a></span></td>
+                            <td colspan="6" class="spcblock" style="text-align: left;"><span><a href="">Paediatrics and Adolescent Medicine</a></span></td>
+                        </tr>
+                        <tr>
+                            <td colspan="12" class="scb"><span><a href="">Block B: Surgery and Orthopaedics and Traumatology</a></span></td>
+                            <td colspan="6" class="spcblock" style="text-align: left;"><span><a href="">Medicine</a></span></td>
+                            <td colspan="6" class="spcblock" style="text-align: left;"><span><a href="">Psychiatry</a></span></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" colspan="12" class="scc"><span><a href="">Block C: Multidisciplinary: Emergency, Palliative Care and Ophthalmology</a></span></td>
+                            <td colspan="6" class="spcblock" style="text-align: left;"><span><a href="">Surgery</a></span></td>
+                            <td colspan="6" class="spcblock" style="text-align: left;"><span><a href="">Orthopaedics and Traumatology</a></span></td>
+                        </tr>
+                        <tr>
+
+                            <td colspan="6" class="spcblock" style="text-align: left;"><span><a href="">Obstetrics and Gynaecology</a></span></td>
+                            <td colspan="6" class="spcblock" style="text-align: left;"><span><a href="">Emergency Medicine</a></span></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Jul</td>
+                            <td colspan="2">Aug</td>
+                            <td colspan="2">Sep</td>
+                            <td colspan="2">Oct</td>
+                            <td colspan="2">Nov</td>
+                            <td colspan="2">Dec</td>
+                            <td colspan="2"></td>
+                            <td colspan="2">Jan</td>
+                            <td colspan="2">Feb</td>
+                            <td colspan="2">Mar</td>
+                            <td colspan="2">Apr</td>
+                            <td colspan="2">May</td>
+                            <td colspan="2">Jun</td>
+                        </tr>
+                        <tr>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.84%"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="text-align: center;"><br></p>
+            </div>
+        </li>
+        <li>
+            <div class="table-responsive">
+                <table width="100%" border="0">
+                    <tbody>
+                        <tr>
+                            <td colspan="26" style="text-align: left;" class="year"><a><strong>&nbsp;Year 6</strong></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="12" style="text-align: center;" class="spc"><a><span><strong>Specialty Clerkship</strong></span></a></td>
+                            <td rowspan="2" colspan="2" style="text-align: center;" class="break"><a><span>Term Break</span></a></td>
+                            <td colspan="12" style="text-align: center;" class="spc"><a><span><strong>Specialty Clerkship</strong></span></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: center;" class="spc"><a><span>Rotation 4</span></a></td>
+                            <td colspan="3" style="text-align: center;" class="spc"><a><span>Rotation 5</span></a></td>
+                            <td colspan="3" style="text-align: center;" class="spc"><a><span>Rotation 6</span></a></td>
+                            <td colspan="3" style="text-align: center;" class="spc"><a><span>Rotation 7</span></a></td>
+                            <td colspan="2" style="text-align: left;" class="revision"><a><span>Revision Sessions</span></a></td>
+                            <td colspan="4" style="text-align: left;" class="summative"><a><span>Final Summative Assessment</span></a></td>
+                            <td colspan="2" style="text-align: left;" class="elective"><span><a href="">MBBS Elective</a></span></td>
+                            <td colspan="4" style="text-align: left;" class="epib"><span class="small"><a href="">Pre-Internship Block / Internship</a></span></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Jul</td>
+                            <td colspan="2">Aug</td>
+                            <td colspan="2">Sep</td>
+                            <td colspan="2">Oct</td>
+                            <td colspan="2">Nov</td>
+                            <td colspan="2">Dec</td>
+                            <td colspan="2"></td>
+                            <td colspan="2">Jan</td>
+                            <td colspan="2">Feb</td>
+                            <td colspan="2">Mar</td>
+                            <td colspan="2">Apr</td>
+                            <td colspan="2">May</td>
+                            <td colspan="2">Jun</td>
+                        </tr>
+                        <tr>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.85%"></td>
+                            <td width="3.84%"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br><br>
+                <table width="100%" border="0">
+                    <tbody>
+
+
+                        <tr>
+                            <td colspan="26" style="text-align: left;"><a><span class="" style="background-color: rgb(255, 255, 255); color: rgb(51, 51, 51);">^ Students who have achieved Level 5 or above in English Language in the Hong Kong Diploma of Secondary Education Examination, or equivalent, are exempted from CASE1000 Core University English.</span></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="26" style="text-align: left;"><a><span class="" style="background-color: rgb(255, 255, 255); color: rgb(51, 51, 51);">* Students are expected to take at least <u>one</u> common Core (CC) course in the first year, at least <u>one</u> CC course in the second year and the remaining CC courses in the third year of study (at least 12 credits must be taken at HKU).</span></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="text-align: center;"><br></p>
+            </div>
+        </li>
+
+    </ol>
+</div>
