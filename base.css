@@ -1,0 +1,215 @@
+/*
+<fusedoc>
+	<description>
+		Twist the layout of Boost theme
+	</description>
+</fusedoc>
+*/
+
+
+/*-------------+
+|  BACKGROUND  |
++-------------*/
+
+body { background-color: #f2f2f2; }
+
+
+
+
+/*---------+
+|  HEADER  |
++---------*/
+
+/* hide moodle brand */
+#page-wrapper > .navbar .navbar-brand > .site-name { display: none !important; }
+
+/* keep showing logo in mobile */
+#page-wrapper > .navbar .navbar-brand { display: inline-block !important; }
+
+/* logo size */
+#page-wrapper > .navbar .navbar-brand > img { height: 36px; }
+
+/* hide breadcrumb first two items (which just go to Moodle dashboard) */
+#page-navbar .breadcrumb-item:nth-child(1),
+#page-navbar .breadcrumb-item:nth-child(2),
+#page-navbar .breadcrumb-item:nth-child(3)::before { display: none; }
+
+/* replace breadcrumb course name with home icon */
+#page-navbar .breadcrumb-item:nth-child(3) > a {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	text-indent: -9999px;
+	white-space: nowrap;
+	width: 22px;
+}
+#page-navbar .breadcrumb-item:nth-child(3) > a::before {
+	color: #1177d1;
+	content: '\f015';
+	display: block;
+	font-family: 'FontAwesome';
+	font-size: 20px;
+	left: 9999px;
+	line-height: 22px;
+	position: absolute;
+	top: 0;
+}
+
+
+
+
+/*-------+
+|  MENU  |
++-------*/
+
+/* fix padding */
+body:not(.editing) #nav-drawer nav.list-group a .icon { display: none; }
+
+/* hide menu with unused Moodle features */
+body:not(.editing) #nav-drawer nav.list-group[aria-label=Site] { display: none; }
+body:not(.editing) #nav-drawer nav.list-group a[data-key=grades],
+body:not(.editing) #nav-drawer nav.list-group a[data-key=coursehome],
+body:not(.editing) #nav-drawer nav.list-group a[data-key=badgesview],
+body:not(.editing) #nav-drawer nav.list-group a[data-key=competencies],
+body:not(.editing) #nav-drawer nav.list-group a[data-key=participants],
+body:not(.editing) #nav-drawer nav.list-group a[href*=googledriveinmoodle] { display: none; }
+
+
+
+
+/*----------+
+|  SIDEBAR  |
++----------*/
+
+/* hide custom-js block (available to browser & invisible to user) */
+body:not(.editing) #block-region-side-pre .block[data-block=custom_js] { display: none; }
+
+/* fix bullet margin */
+#block-region-side-pre .block .content ul,
+#block-region-side-pre .block .content ol { margin-left: .5rem; }
+
+/* hide certain blocks (moodle cannot totally hide them in some pages) */
+body:not(.editing) #block-region-side-pre .block[data-block=leganto],
+body:not(.editing) #block-region-side-pre .block[data-block=course_list],
+body:not(.editing) #block-region-side-pre .block[data-block=moodle_support],
+body:not(.editing) #block-region-side-pre .block[data-block=message_on_copyright_issue] { display: none; }
+
+
+
+
+/*--------+
+|  MODAL  |
++--------*/
+
+/* hide section title in loaded content */
+.modal-body > [role=main] > #maincontent + h2,
+.modal-body > [role=main] .section.main > .content > .sectionname { display: none; }
+
+/* do not show bullet at folder tree */
+.modal .filemanager ul { list-style-type: none; }
+
+/* adjust inner spacing */
+.modal-body { padding: .5rem 1.5rem; }
+
+/* xs = old-sm   */
+/* sm = old-md   */
+/* md = old-lg   */
+/* lg = (larger) */
+/* xl = (same)   */
+.modal-dialog { max-width: 800px; }
+@media (min-width: 576px) {
+	.modal-xs { max-width: 300px; }
+	.modal-sm { max-width: 500px; }
+}
+@media (min-width: 992px) {
+	.modal-lg,
+	.modal-xl { max-width: 800px; }
+}
+@media (min-width: 1200px) {
+	.modal-lg { max-width: 960px; }
+	.modal-xl { max-width: 1140px; }
+}
+
+
+
+
+/*----------+
+|  CONTENT  |
++----------*/
+
+/* specify max content size (instead of always full width) */
+#page.container-fluid { max-width: 1600px; }
+
+/* increase size of activity modal */
+.moodle-dialogue { width: 800px !important; }
+
+/* hide bottom navigation */
+.activity-navigation,
+.section-navigation.mdl-bottom,
+.section-navigation.navigationtitle > .mdl-left,
+.section-navigation.navigationtitle > .mdl-right { display: none !important; }
+
+/* hide back button (because not work on collapsed section) */
+.course-content-header .backto { display: none; }
+
+/* make sub-sections invisible (Moodle cannot make section to be hidden-but-available) */
+body:not(.editing) #region-main > [role=main] > .course-content .flexsections-level-0 > .section:not([id=section-0]) .flexsections { display: none; }
+
+
+
+
+/*---------+
+|  FOOTER  |
++---------*/
+
+/* match with content width */
+#page-footer > .container { max-width: 1600px; }
+
+/* hide useless links */
+body:not(.editing) #page-footer .homelink,
+body:not(.editing) #page-footer .nav { display: none; }
+
+/* reduce height & single line */
+#page-footer { margin-top: 1rem; }
+#page-footer .helplink,
+#page-footer .logininfo,
+#page-footer .tool_dataprivacy,
+#page-footer .tool_usertours-resettourcontainer {
+	display: inline-block;
+	margin: 0 .5rem 0 0;
+	padding: 0 1rem 0 0;
+	position: relative;
+}
+
+/* delimiter */
+#page-footer .helplink::after,
+#page-footer .logininfo::after,
+#page-footer .tool_usertours-resettourcontainer::after {
+	content: '|';
+	display: inline-block;
+	right: 0;
+	position: absolute;
+	top: 0;
+}
+
+/* footer arrangement at mobile */
+@media (max-width: 575px) {
+	#page-footer { text-align: center; }
+	#page-footer .helplink,
+	#page-footer .logininfo,
+	#page-footer .tool_dataprivacy,
+	#page-footer .tool_usertours-resettourcontainer { display: block; margin: 0 0 1rem 0; padding: 0; }
+	#page-footer .helplink::after,
+	#page-footer .logininfo::after,
+	#page-footer .tool_usertours-resettourcontainer::after { display: none; }
+}
+
+
+
+
+/*----------+
+|  HOT FIX  |
++----------*/
+
+/* fix bug of activity [Interactive Content] width */
+#fitem_id_h5peditor > .form-inline { display: block; }
