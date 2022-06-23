@@ -1,0 +1,240 @@
+#region-main,
+#page-header .card,
+#block-region-side-pre .block { box-shadow: 0 0 5px rgba(0,0,0,.1); }
+
+
+
+
+/*---------+
+|  HEADER  |
++---------*/
+
+/* top spacing */
+#page-header { padding-top: 1rem; }
+
+/* header stripe */
+#page-header .card { border-top: solid 3px #5bc0de; }
+
+/* logo position */
+#page-wrapper > .navbar .navbar-brand { margin-left: -5px; }
+
+
+
+
+/*-------+
+|  MENU  |
++-------*/
+
+/* adjust spacing */
+#nav-drawer { padding-top: 2rem; }
+
+
+
+
+/*----------+
+|  SIDEBAR  |
++----------*/
+
+/* hide panopto block (available to browser & invisible to user) */
+/* body:not(.editing) #block-region-side-pre .block[data-block=panopto] { display: none; } */
+
+/* adjust style of curriculum map button */
+body:not(.editing) #block-region-side-pre .block[data-block=curriculum_map] .card-title { display: none !important; }
+body:not(.editing) #block-region-side-pre .block[data-block=curriculum_map] .card-body { padding: 0 !important; }
+body:not(.editing) #block-region-side-pre .block[data-block=curriculum_map] .card-text { margin: 0 !important; }
+
+
+
+
+/*----------+
+|  CONTENT  |
++----------*/
+
+/* fix label activity horizontal spacing */
+.activity.label .mod-indent-outer { padding-left: 0; }
+body:not(.editing) .activity.label > div,
+body:not(.editing) .activity.label .contentwithoutlink { padding-right: 0 !important; }
+
+/* table color */
+.table,
+.table th,
+.table td { border-color: #b8daff !important; }
+.table th { background-color: #cce5ff !important; }
+
+
+
+
+/*--------------------------+
+|  CONTENT : SECTION FRONT  |
++--------------------------*/
+
+/* all sections */
+#section-0 .flexsections-level-1 > .section {
+	border: none;
+	margin-bottom: 2rem;
+}
+
+/* make sub-sections invisible (because Moodle cannot hide section but make avaialble) */
+body:not(.editing) .section-front .flexsections { display: none; }
+
+/* section title (make it looks like <h2>) */
+.section.main > .content > h3.sectionname:first-child { font-size: 1.875rem; }
+
+/* increase size of activity name (make it looks like <h5>) */
+body:not(.editing) .section-front:not(#section-1) .subhead,
+body:not(.editing) .section-front:not(#section-1) .arrow,
+body:not(.editing) .section-front:not(#section-1) .subarrow,
+body:not(.editing) .section-front .activityinstance.indent-0 .instancename {
+	font-size: 1.171875rem;
+	font-weight: 300;
+}
+
+/* apply icon to activity name */
+body:not(.editing) .section-front:not(#section-1) ul.section { margin-left: 2.5rem; }
+body:not(.editing) .section-front:not(#section-1) .activityinstance.indent-0 img { display: none; }
+body:not(.editing) .section-front:not(#section-1) .activityinstance.indent-0,
+body:not(.editing) .section-front:not(#section-1) .contentwithoutlink.indent-0 { position: relative; }
+
+body:not(.editing) .section-front:not(#section-1) .arrow::before,
+body:not(.editing) .section-front:not(#section-1) .subarrow::before,
+body:not(.editing) .section-front:not(#section-1) .activityinstance.indent-0 .instancename::before,
+body:not(.editing) .section-front:not(#section-1) .contentwithoutlink.indent-0 h5:first-child::before {
+	color: silver;
+	content: '\f105';
+	display: block;
+	font-family: 'FontAwesome';
+	height: 1rem;
+	left: -1.5rem;
+	position: absolute;
+	text-indent: 0;
+	top: 0;
+	width: 1rem;
+}
+
+
+body:not(.editing) .section-front:not(#section-1) .subarrow{
+	position: absolute;
+    left: 3rem;
+}
+
+
+/* @media (max-width: 575px) {
+    body:not(.editing) .section-front:not(#section-1) .subarrow{
+        left: 1rem;
+    }
+} */
+
+body:not(.editing) .section-front:not(#section-1) .subarrow::before {
+    left: -1rem;
+}
+
+body:not(.editing) .section-front:not(#section-1) .subhead::before {
+	color: silver;
+	content: '\f107';
+	display: block;
+	font-family: 'FontAwesome';
+	height: 1rem;
+	left: -1.5rem;
+	position: absolute;
+	text-indent: 0;
+	top: 0;
+	width: 1rem;
+}
+
+/* banner size */
+.section-banner-wrapper { margin: .5rem 0 1rem 0; }
+.section-banner-wrapper,
+img.section-banner { border-radius: 6px; }
+img.section-banner {
+	max-height: 120px;
+	vertical-align: bottom;
+	width: auto;
+}
+
+/* normalize image styles applied by atto-html-editor */
+img.section-banner.atto_image_button_left,
+img.section-banner.atto_image_button_right,
+img.section-banner.atto_image_button_middle,
+img.section-banner.atto_image_button_text-top,
+img.section-banner.atto_image_button_text-bottom { margin: 0; }
+
+
+
+
+/*---------+
+|  MASCOT  |
++---------*/
+
+/* bottom */
+#region-main {
+	background: url(../img/mascot.jpg) center calc(100% + 65px) no-repeat white;
+	background-size: 800px auto;
+	padding-bottom: 300px;
+}
+
+/* header */
+#page-header .card-body {
+	background-position: calc(100% - 10px) center;
+	background-repeat: no-repeat;
+	background-size: auto 100px;
+}
+#page-header.has-settings-menu .card-body { background-position: calc(100% - 60px); }
+#page-header.mascot-1  .card-body { background-image: url(../img/mascot_1.png); }
+#page-header.mascot-2  .card-body { background-image: url(../img/mascot_2.png); }
+#page-header.mascot-3  .card-body { background-image: url(../img/mascot_3.png); }
+#page-header.mascot-4  .card-body { background-image: url(../img/mascot_4.gif); }
+#page-header.mascot-5  .card-body { background-image: url(../img/mascot_5.png); }
+#page-header.mascot-6  .card-body { background-image: url(../img/mascot_6.gif); }
+#page-header.mascot-7  .card-body { background-image: url(../img/mascot_7.gif); }
+#page-header.mascot-8  .card-body { background-image: url(../img/mascot_8.png); }
+#page-header.mascot-9  .card-body { background-image: url(../img/mascot_9.gif); }
+#page-header.mascot-10 .card-body { background-image: url(../img/mascot_10.gif); }
+#page-header.mascot-11 .card-body { background-image: url(../img/mascot_11.png); }
+#page-header.mascot-12 .card-body { background-image: url(../img/mascot_12.gif); }
+#page-header.mascot-13 .card-body { background-image: url(../img/mascot_13.png); }
+#page-header.mascot-14 .card-body { background-image: url(../img/mascot_14.png); }
+#page-header.mascot-15 .card-body { background-image: url(../img/mascot_15.png); }
+#page-header.mascot-16 .card-body { background-image: url(../img/mascot_16.gif); }
+#page-header.mascot-17 .card-body { background-image: url(../img/mascot_17.png); }
+#page-header.mascot-18 .card-body { background-image: url(../img/mascot_18.gif); }
+#page-header.mascot-19 .card-body { background-image: url(../img/mascot_19.png); }
+
+
+
+/*---------+
+|  MOBILE  |
++---------*/
+
+@media (max-width: 575px) {
+	/* top spacing */
+	#page-header { padding-top: 0; }
+	/* top-nav shadow */
+	#page-wrapper > .navbar { box-shadow: 0 0 5px rgba(0,0,0,.2); }
+	/* hide header mascot */
+	#page-header .card-body { background: none !important; }
+	/* smaller title */
+	#page-header h1 { font-size: 1.8em; }
+	#region-main > [role=main] > #maincontent + h2,
+	#region-main > [role=main] .section.main > .content > .sectionname { font-size: 1.65em; }
+	/* section-front bullet */
+	body:not(.editing) .section-front:not(#section-1) ul.section { margin-left: 1.6rem; }
+	body:not(.editing) .section-front:not(#section-1) .activityinstance.indent-0 .instancename::before,
+	body:not(.editing) .section-front:not(#section-1) .contentwithoutlink.indent-0 h5:first-child::before { left: -1.2rem; }
+	/* footer arrangement */
+	#page-footer { text-align: center; }
+	#page-footer .helplink,
+	#page-footer .logininfo,
+	#page-footer .tool_dataprivacy,
+	#page-footer .tool_usertours-resettourcontainer { display: block; margin: 0 0 1rem 0; padding: 0; }
+	#page-footer .helplink::after,
+	#page-footer .logininfo::after,
+	#page-footer .tool_usertours-resettourcontainer::after { display: none; }
+}
+
+
+#module-2186809 {
+
+height: 60px !important ; 
+}
+
+
